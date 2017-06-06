@@ -207,8 +207,8 @@ class BlurMenu extends React.Component{
 		<div className="menu">
 			<div className="menu-bg js-blur"></div>
 			<nav className="menu-items">
-				<a href="#" className="menu-item">
-					<span className="js-blur">About us</span>
+				<a href="/" className="menu-item">
+					<span className="js-blur">Home</span>
 				</a>
 				<a href="/mix" className="menu-item">
 					<span className="js-blur">Mix tapes</span>

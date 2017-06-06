@@ -1,0 +1,53 @@
+.cassette {
+  background: -webkit-radial-gradient(ellipse 1.2em 1.2em at 2.1em 2.1em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1.2em 1.2em at 32.9em 2.1em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1.2em 1.2em at 2.1em 17.9em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1.2em 1.2em at 32.9em 17.9em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1.5em 1.5em at 10em 17.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1.5em 1.5em at 25em 17.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 13em 16.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 22em 16.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), -webkit-linear-gradient(45deg, transparent 88%, #222 0), -webkit-linear-gradient(135deg, transparent 88%, #222 0), -webkit-linear-gradient(#fff 6em, transparent 6em, transparent 13em, #ddd 13em, #ddd 15em, transparent 15em), -webkit-linear-gradient(left, transparent 30%, #222 30%, #222 70%, transparent 70%), -webkit-linear-gradient(white 36%, #e0162b 36%, #e0162b 44%, #fff 44%, #fff 52%, #0052a5 52%, #0052a5 60%, #ddd 60%, #ddd 70%, #222 70%);
+  background: radial-gradient(ellipse 1.2em 1.2em at 2.1em 2.1em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1.2em 1.2em at 32.9em 2.1em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1.2em 1.2em at 2.1em 17.9em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1.2em 1.2em at 32.9em 17.9em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1.5em 1.5em at 10em 17.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1.5em 1.5em at 25em 17.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 13em 16.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 22em 16.75em, #dddddd 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(45deg, transparent 88%, #222 0), linear-gradient(-45deg, transparent 88%, #222 0), linear-gradient(#fff 6em, transparent 6em, transparent 13em, #ddd 13em, #ddd 15em, transparent 15em), linear-gradient(90deg, transparent 30%, #222 30%, #222 70%, transparent 70%), linear-gradient(white 36%, #e0162b 36%, #e0162b 44%, #fff 44%, #fff 52%, #0052a5 52%, #0052a5 60%, #ddd 60%, #ddd 70%, #222 70%);
+  border-radius: .5em;
+  box-shadow: inset 0 0 0 1.5em #222, 0 0.25em 0 0 #ddd, 0 1.75em 0.25em -1em rgba(34, 34, 34, 0.25);
+  height: 20em;
+  margin: 0 auto;
+  position: relative;
+  width: 35em;
+}
+.cassette:before, .cassette:after {
+  -webkit-animation: 4s press-play linear infinite;
+          animation: 4s press-play linear infinite;
+  background: #fff;
+  background-image: -webkit-radial-gradient(ellipse 1em 1em at 50% 5%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 50% 95%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 5% 50%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 95% 50%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 18% 18%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 18% 82%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 82% 18%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), -webkit-radial-gradient(ellipse 1em 1em at 82% 82%, #cccccc 50%, rgba(0, 0, 0, 0) 50%);
+  background-image: radial-gradient(ellipse 1em 1em at 50% 5%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 50% 95%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 5% 50%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 95% 50%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 18% 18%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 18% 82%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 82% 18%, #cccccc 50%, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse 1em 1em at 82% 82%, #cccccc 50%, rgba(0, 0, 0, 0) 50%);
+  border: solid 1em #222;
+  border-radius: 5em;
+  content: '';
+  display: inline-block;
+  height: 5em;
+  position: absolute;
+  top: 6em;
+  width: 5em;
+}
+.cassette:before {
+  left: 6.5em;
+}
+.cassette:after {
+  right: 6.5em;
+}
+
+@-webkit-keyframes press-play {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes press-play {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}

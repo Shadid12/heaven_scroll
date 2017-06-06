@@ -1,9 +1,14 @@
-import React from 'react';
+import React from 'react'
+import './styles/MixTape.css'
+import BlurMenu from './BlurMenu'
 
 class MixTape extends React.Component{
 	render() {
 		return(
-			<h1>Hello I am mix tape</h1>
+			<div>
+				<BlurMenu />
+				<div className="cassette"></div>
+			</div>
 		)
 	}
 }
