@@ -79,6 +79,7 @@ html, body {
   background-image: url(https://s8.postimg.org/grwsbtiat/x_ZMOBTj.jpg);
 }
 
+
 /* Set stacking context of slides */
 .background:nth-child(1) {
   z-index: 3;

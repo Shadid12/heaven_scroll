@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home';
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+
+// components
+import Home from './components/Home';
+import MixTape from './components/MixTape'
+
+// router libraries
+import { Route, Router, IndexRoute, browserHistory }  from 'react-router';
 
 ReactDOM.render(
-	<Home />, 
+	<Router history={browserHistory}>
+		<Route path="/" component={Home} />
+		<Route path="/mix" component={MixTape} />
+	</Router>, 
 	document.getElementById('root'));
 registerServiceWorker();

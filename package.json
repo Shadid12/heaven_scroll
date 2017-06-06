@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.5.2",
     "gsap": "^1.19.1",
     "jquery": "^3.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-load-script": "0.0.4",
+    "react-router": "^2.8.1",
     "snapsvg": "^0.5.1"
   },
   "devDependencies": {

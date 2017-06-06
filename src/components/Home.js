@@ -1,9 +1,14 @@
 import React from 'react'
 import BlurMenu from './BlurMenu'
-import './styles/Home.css'
+
 import $ from 'jquery'
 import _ from 'lodash'
 
+// components
+import MenuItems from './MenuItems'
+
+// css 
+import './styles/Home.css'
 
 class Home extends React.Component{
 
@@ -30,8 +35,8 @@ class Home extends React.Component{
 				  </section>
 				  <section className="background">
 				    <div className="content-wrapper">
-				      <p className="content-title">Music and Stuff</p>
 				      <p className="content-subtitle"></p>
+				      <MenuItems />
 				    </div>
 				  </section>
 				  <section className="background">
